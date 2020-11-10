@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./public/css/style.css">
+    <title>Daftar Artikel | COFIGHT</title>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container nav-wrapper">
+            <div class="logo">
+                <h3 class="Poppins">COFIGHT</h3>
+                <span></span>
+            </div>
+            <ul class="nav-list">
+                <li class="nav-link">
+                    <a class="Poppins" href="./index.html">Home</a>
+                </li>
+                <li class="nav-link nav-active">
+                    <a class="Poppins" href="./artikel.html">Artikel</a>
+                </li>
+                <li class="nav-link">
+                    <a class="Poppins" href="./seputar-covid-19.html">Seputar COVID 19</a>
+                </li>
+                <li class="nav-link">
+                    <a class="Poppins" href="./update-kasus-covid-19.html">Update Kasus COVID 19</a>
+                </li>
+                <li class="nav-link">
+                    <a class="Poppins" href="./rs-rujukan.html">Rumah Sakit Rujukan</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- End Of Navbar -->
+
+    <!-- Hamburger -->
+    <div class="hamburger-wrapper">
+        <div class="hamburger">
+            <div class="stick bg-white"></div>
+            <div class="stick bg-white"></div>
+            <div class="stick bg-white"></div>
+        </div>
+
+        <!-- <a class="button-login Lato">
+            <img src="./public/images/profile.svg" alt="">
+            <span>Masuk</span>
+        </a> -->
+    </div>
+    <!-- End of Hamburger -->
+    
+    <!-- Sidebar -->
+    <div class="sidebar d-none sidebar-none">
+        <div class="sidebar-wrapper">
+            <div class="sidebar-header">
+                <div class="logo">
+                    <h3 class="Poppins">COFIGHT</h3>
+                    <span></span>
+                </div>
+            </div>
+            
+            <div class="sidebar-line"></div>
+    
+            <ul class="sidebar-list">
+                <li class="sidebar-link sidebar-active">
+                    <a class="Poppins" href="./index.html">Home</a>
+                </li>
+                <li class="sidebar-link">
+                    <a class="Poppins" href="./artikel.html">Artikel</a>
+                </li>
+                <li class="sidebar-link">
+                    <a class="Poppins" href="./seputar-covid-19.html">Seputar COVID 19</a>
+                </li>
+                <li class="sidebar-link">
+                    <a class="Poppins" href="./update-kasus-covid-19.html">Update Kasus COVID 19</a>
+                </li>
+                <li class="sidebar-link">
+                    <a class="Poppins" href="./rs-rujukan.html">RS Rujukan</a>
+                </li>
+            </ul>
+            <div class="sidebar-line"></div>
+            <ul class="sidebar-list">
+                <li class="sidebar-link small-sidebar-link sidebar-active">
+                    <a class="Poppins" href="./kebijakan-privasi.html">Kebijakan Privasi</a>
+                </li>
+                <li class="sidebar-link small-sidebar-link">
+                    <a class="Poppins" href="./syarat-ketentuan.html">Syarat & Ketentuan</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- End of Sidebar -->
+
+<!-- Section list artikel -->
+<section class="artikel-container container">
+    <div class="header-title">
+        <img src="./public/images/icon/card-icon.png" alt="">
+        <h1 class="Roboto">Artikel</h1>
+    </div>
+    <div class="artikel-wrapper">
+        <div class="list-artikel-container">
+            <div class="urut-wrapper">
+                <div class="inner">
+                    <h3 class="Open-sans">Urut Berdasarkan</h3>
+                    <select class="Poppins" name="" id="">
+                        <option value="">Terbaru</option>
+                        <option value="populer">Populer</option>
+                    </select>
+                </div>
+            </div>
+            <div class="articles-wrapper">
+                <div class="inner-articles-wrapper">
+                    <div class="header">
+                        <h2 class="Open-sans">Artikel Terbaru</h2>
+                        <hr>
+                    </div>
+                    <div class="articles">
+                        <div class="article">
+                            <div class="inner-article">
+                                <div class="top">
+                                    <div class="image-artikel">
+                                        <div class="inner">
+                                            <img src="./public/images/ketahui-cara-untuk-mencegah-penularan-virus-corona-0-alodokter.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="content-article">
+                                        <div class="inner">
+                                            <h3 class="Nunito-sans"><a href="./artikel-detail.html">5 Cara Efektif agar Tidak Tertular Virus Corona</a></h3>
+                                            <p class="Nunito-sans">Coronavirus telah menyerang ribuan orang di berbagai negara dan menelan ratusan korban jiwa. Agar tidak terkena penyakit infeksi yang sedang mewabah ini, ada beberapa cara yang bisa dilakukan untuk mencegah penularan virus Corona.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="bottom">
+                                    <div class="no-content d-none-mobile">
+
+                                    </div>
+                                    <div class="bottom-inner">
+                                        <div class="inner">
+                                            <div class="status-article-wrap">
+                                                <div class="last-uploaded"><img src="./public/images/clock-icon.svg" alt=""> <span class="Nunito-sans">5 days ago</span></div>
+                                                <div class="viewed-count"><img src="./public/images/eye.svg" alt=""> <span class="Nunito-sans">Dilihat 20 kali</span></div>
+                                            </div>
+                                            <div class="read-more-wrap">
+                                                <a class="Nunito-sans" href="./artikel-detail.html">Baca Selengkapnya</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                            </div>
+                        </div>
+                        <div class="article">
+                            <div class="inner-article">
+                                <div class="top">
+                                    <div class="image-artikel">
+                                        <div class="inner">
+                                            <img src="./public/images/ketahui-cara-untuk-mencegah-penularan-virus-corona-0-alodokter.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="content-article">
+                                        <div class="inner">
+                                            <h3 class="Nunito-sans"><a href="./artikel-detail.html">5 Cara Efektif agar Tidak Tertular Virus Corona</a></h3>
+                                            <p class="Nunito-sans">Coronavirus telah menyerang ribuan orang di berbagai negara dan menelan ratusan korban jiwa. Agar tidak terkena penyakit infeksi yang sedang mewabah ini, ada beberapa cara yang bisa dilakukan untuk mencegah penularan virus Corona.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="bottom">
+                                    <div class="no-content d-none-mobile">
+
+                                    </div>
+                                    <div class="bottom-inner">
+                                        <div class="inner">
+                                            <div class="status-article-wrap">
+                                                <div class="last-uploaded"><img src="./public/images/clock-icon.svg" alt=""> <span class="Nunito-sans">5 days ago</span></div>
+                                                <div class="viewed-count"><img src="./public/images/eye.svg" alt=""> <span class="Nunito-sans">Dilihat 20 kali</span></div>
+                                            </div>
+                                            <div class="read-more-wrap">
+                                                <a class="Nunito-sans" href="./artikel-detail.html">Baca Selengkapnya</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                            </div>
+                        </div>
+                        <div class="article">
+                            <div class="inner-article">
+                                <div class="top">
+                                    <div class="image-artikel">
+                                        <div class="inner">
+                                            <img src="./public/images/ketahui-cara-untuk-mencegah-penularan-virus-corona-0-alodokter.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="content-article">
+                                        <div class="inner">
+                                            <h3 class="Nunito-sans"><a href="./artikel-detail.html">5 Cara Efektif agar Tidak Tertular Virus Corona</a></h3>
+                                            <p class="Nunito-sans">Coronavirus telah menyerang ribuan orang di berbagai negara dan menelan ratusan korban jiwa. Agar tidak terkena penyakit infeksi yang sedang mewabah ini, ada beberapa cara yang bisa dilakukan untuk mencegah penularan virus Corona.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="bottom">
+                                    <div class="no-content d-none-mobile">
+
+                                    </div>
+                                    <div class="bottom-inner">
+                                        <div class="inner">
+                                            <div class="status-article-wrap">
+                                                <div class="last-uploaded"><img src="./public/images/clock-icon.svg" alt=""> <span class="Nunito-sans">5 days ago</span></div>
+                                                <div class="viewed-count"><img src="./public/images/eye.svg" alt=""> <span class="Nunito-sans">Dilihat 20 kali</span></div>
+                                            </div>
+                                            <div class="read-more-wrap">
+                                                <a class="Nunito-sans" href="./artikel-detail.html">Baca Selengkapnya</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                            </div>
+                        </div>
+                        <div class="article">
+                            <div class="inner-article">
+                                <div class="top">
+                                    <div class="image-artikel">
+                                        <div class="inner">
+                                            <img src="./public/images/ketahui-cara-untuk-mencegah-penularan-virus-corona-0-alodokter.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="content-article">
+                                        <div class="inner">
+                                            <h3 class="Nunito-sans"><a href="./artikel-detail.html">5 Cara Efektif agar Tidak Tertular Virus Corona</a></h3>
+                                            <p class="Nunito-sans">Coronavirus telah menyerang ribuan orang di berbagai negara dan menelan ratusan korban jiwa. Agar tidak terkena penyakit infeksi yang sedang mewabah ini, ada beberapa cara yang bisa dilakukan untuk mencegah penularan virus Corona.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="bottom">
+                                    <div class="no-content d-none-mobile">
+
+                                    </div>
+                                    <div class="bottom-inner">
+                                        <div class="inner">
+                                            <div class="status-article-wrap">
+                                                <div class="last-uploaded"><img src="./public/images/clock-icon.svg" alt=""> <span class="Nunito-sans">5 days ago</span></div>
+                                                <div class="viewed-count"><img src="./public/images/eye.svg" alt=""> <span class="Nunito-sans">Dilihat 20 kali</span></div>
+                                            </div>
+                                            <div class="read-more-wrap">
+                                                <a class="Nunito-sans" href="./artikel-detail.html">Baca Selengkapnya</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                            </div>
+                        </div>
+                        <div class="article">
+                            <div class="inner-article">
+                                <div class="top">
+                                    <div class="image-artikel">
+                                        <div class="inner">
+                                            <img src="./public/images/ketahui-cara-untuk-mencegah-penularan-virus-corona-0-alodokter.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="content-article">
+                                        <div class="inner">
+                                            <h3 class="Nunito-sans"><a href="./artikel-detail.html">5 Cara Efektif agar Tidak Tertular Virus Corona</a></h3>
+                                            <p class="Nunito-sans">Coronavirus telah menyerang ribuan orang di berbagai negara dan menelan ratusan korban jiwa. Agar tidak terkena penyakit infeksi yang sedang mewabah ini, ada beberapa cara yang bisa dilakukan untuk mencegah penularan virus Corona.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="bottom">
+                                    <div class="no-content d-none-mobile">
+
+                                    </div>
+                                    <div class="bottom-inner">
+                                        <div class="inner">
+                                            <div class="status-article-wrap">
+                                                <div class="last-uploaded"><img src="./public/images/clock-icon.svg" alt=""> <span class="Nunito-sans">5 days ago</span></div>
+                                                <div class="viewed-count"><img src="./public/images/eye.svg" alt=""> <span class="Nunito-sans">Dilihat 20 kali</span></div>
+                                            </div>
+                                            <div class="read-more-wrap">
+                                                <a class="Nunito-sans" href="./artikel-detail.html">Baca Selengkapnya</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                            </div>
+                        </div>
+                        <div class="article">
+                            <div class="inner-article">
+                                <div class="top">
+                                    <div class="image-artikel">
+                                        <div class="inner">
+                                            <img src="./public/images/ketahui-cara-untuk-mencegah-penularan-virus-corona-0-alodokter.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="content-article">
+                                        <div class="inner">
+                                            <h3 class="Nunito-sans"><a href="./artikel-detail.html">5 Cara Efektif agar Tidak Tertular Virus Corona</a></h3>
+                                            <p class="Nunito-sans">Coronavirus telah menyerang ribuan orang di berbagai negara dan menelan ratusan korban jiwa. Agar tidak terkena penyakit infeksi yang sedang mewabah ini, ada beberapa cara yang bisa dilakukan untuk mencegah penularan virus Corona.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="bottom">
+                                    <div class="no-content d-none-mobile">
+
+                                    </div>
+                                    <div class="bottom-inner">
+                                        <div class="inner">
+                                            <div class="status-article-wrap">
+                                                <div class="last-uploaded"><img src="./public/images/clock-icon.svg" alt=""> <span class="Nunito-sans">5 days ago</span></div>
+                                                <div class="viewed-count"><img src="./public/images/eye.svg" alt=""> <span class="Nunito-sans">Dilihat 20 kali</span></div>
+                                            </div>
+                                            <div class="read-more-wrap">
+                                                <a class="Nunito-sans" href="./artikel-detail.html">Baca Selengkapnya</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="top-artikel-container">
+            <div class="inner">
+                <h3 class="Open-sans">Artikel Populer</h3>
+                <div class="artikel">
+                    <div class="image-wrap">
+                        <img src="./public/images/ketahui-cara-untuk-mencegah-penularan-virus-corona-0-alodokter.jpg" alt="">
+                    </div>
+                    <div class="title-wrap">
+                        <div class="inner">
+                            <h4 class="Nunito-sans"><a href="./artikel-detail.html">5 Cara Efektif agar Tidak Tertular Virus Corona</a></h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="artikel">
+                    <div class="image-wrap">
+                        <img src="./public/images/ketahui-cara-untuk-mencegah-penularan-virus-corona-0-alodokter.jpg" alt="">
+                    </div>
+                    <div class="title-wrap">
+                        <div class="inner">
+                            <h4 class="Nunito-sans"><a href="./artikel-detail.html">5 Cara Efektif agar Tidak Tertular Virus Corona</a></h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="artikel">
+                    <div class="image-wrap">
+                        <img src="./public/images/ketahui-cara-untuk-mencegah-penularan-virus-corona-0-alodokter.jpg" alt="">
+                    </div>
+                    <div class="title-wrap">
+                        <div class="inner">
+                            <h4 class="Nunito-sans"><a href="./artikel-detail.html">5 Cara Efektif agar Tidak Tertular Virus Corona</a></h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="artikel">
+                    <div class="image-wrap">
+                        <img src="./public/images/ketahui-cara-untuk-mencegah-penularan-virus-corona-0-alodokter.jpg" alt="">
+                    </div>
+                    <div class="title-wrap">
+                        <div class="inner">
+                            <h4 class="Nunito-sans"><a href="./artikel-detail.html">5 Cara Efektif agar Tidak Tertular Virus Corona</a></h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="artikel">
+                    <div class="image-wrap">
+                        <img src="./public/images/ketahui-cara-untuk-mencegah-penularan-virus-corona-0-alodokter.jpg" alt="">
+                    </div>
+                    <div class="title-wrap">
+                        <div class="inner">
+                            <h4 class="Nunito-sans"><a href="./artikel-detail.html">5 Cara Efektif agar Tidak Tertular Virus Corona</a></h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End of Section list artikel -->
+
+<form action="" id="form-logout" method="">
+
+</form>
+<!-- Section Footer -->
+<!-- Section Footer -->
+<section class="footer">
+    <div class="footer-info">
+        <div class="thanks-wrapper">
+            <h2 class="Poppins">Special thanks to</h2>
+            <div class="instantiation-wrapper">
+                <div class="instantiation">
+                    <div class="instantiation-header">
+                        <div class="logo">  
+                            <img class="logo-iitc" src="./public/images/IITC-LOGO.png" alt="">
+                        </div>
+                        <h4 class="Nunito-sans">IITC</h4>
+                    </div>
+                    <div class="instantiation-description">
+                        <p class="Roboto">IITC (Intermedia Information Technology Competition) 2020 merupakan salah satu program kegiatan yang diselenggarakan oleh UKM INTERMEDIA UNIVERSITAS AMIKOM PURWOKERTO</p>
+                    </div>
+                </div>
+                <div class="instantiation">
+                    <div class="instantiation-header">
+                        <div class="logo">  
+                            <img src="./public/images/STIMIK-AMIKOM.png" alt="">
+                        </div>
+                        <h4 class="Nunito-sans">Universitas Amikom Purwokerto</h4>
+                    </div>
+                    <div class="instantiation-description">
+                        <p class="Roboto">Universitas Amikom Purwokerto merupakan perguruan tinggi yang berkonsentrasi dibidang Teknologi dan Bisnis Digital. Dengan sarana dan prasarana yang lengkap ditunjang dengan dosen dan praktisi yang telah berpengalaman didunia pendidikan dan industri, siap menjawab tantangan generasi Millenial memasuki dunia kerja pada era revolusi industri 4.0.</p>
+                    </div>
+                </div>
+                <div class="instantiation">
+                    <div class="instantiation-header">
+                        <div class="logo">
+                            <img src="./public/images/logoInmed.png" alt="">
+                        </div>
+                        <h4 class="Nunito-sans">Intermedia</h4>
+                    </div>
+                    <div class="instantiation-description">
+                        <p class="Roboto"> Intermedia merupakan suatu wadah untuk para mahasiswa sebagai tempat menggali potensi diri baik dalam hardskill maupun softskill dari mahasiswa itu sendiri.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="information-wrapper">
+            <div class="info cofight">
+                <div>
+                    <h6 class="Poppins">Cofight</h6><span></span>
+                </div>
+                <ul class="Poppins">
+                    <li>&copy; <span id="year"></span></li>
+                </ul>
+            </div>
+            <div class="info">
+                <h6 class="Nunito-sans">Further Information</h6>
+                <ul class="Poppins">
+                    <li><a href="./kebijakan-privasi.html">Kebijakan Privasi</a></li>
+                    <li><a href="./syarat-penggunaan.html">Syarat & Penggunaan</a></li>
+                </ul>
+            </div>
+            <div class="info">
+                <h6 class="Nunito-sans">COVID-19 Official Website</h6>
+                <ul class="Poppins">
+                    <li><a href="https://covid19.go.id/">COVID-19 Indonesia</a></li>
+                    <li><a href="https://www.who.int/">WHO</a></li>
+                    <li><a href="https://covid19.who.int/">WHO COVID-19</a></li>
+                </ul>
+            </div>
+            <div class="info">
+                <h6 class="Nunito-sans">The Organizer</h6>
+                <ul class="Poppins">
+                    <li><a href="http://www.amikompurwokerto.ac.id/">Universitas Amikom Purwokerto</a></li>
+                    <li><a href="https://intermediaamikom.org/">Intermedia</a></li>
+                </ul>
+            </div>
+            <div class="info">
+                <h6 class="Nunito-sans">Follow Us</h6>
+                <ul class="Poppins">
+                    <li><a href="https://facebook.com/">Facebook</a></li>
+                    <li><a href="https://instagram.com/">Instagram</a></li>
+                    <li><a href="https://twitter.com/">Twitter</a></li>
+                </ul>
+            </div>
+            <div class="info iitc-logo">
+                <img src="./public/images/IITC-LOGO.png" alt="">
+                <h4 class="Nunito-sans">IITC WEB DESIGN COMPETITION</h4>
+            </div>
+        </div>
+    </div>
+    <div class="created-wrapper">
+        <h6 class="Poppins">Created with <span>&hearts;</span> by Weebs Developer</h6>
+    </div>
+</section>
+<!-- End of Section Footer -->
+
+<!-- Javascript -->
+<script src="./public/js/script.js"></script>
+<!-- End Of Javascript -->
+<script>
+document.getElementById("year").innerHTML = new Date().getFullYear();
+</script>
+</body>
+</html>
